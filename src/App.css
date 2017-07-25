@@ -1,0 +1,36 @@
+#bpm {
+    width: 5em;
+}
+.step-label.active {
+    font-weight: bold;
+    background-color: #888;
+}
+
+.roland-red {
+    background-color: #dd1d00;
+    border-color: #dd1d00;
+}
+
+.roland-orange {
+    background-color: #f27900;
+    border-color: #f27900;
+}
+
+.roland-yellow {
+    background-color: #ddda00;
+    border-color: #ddda00;
+}
+
+.roland-offwhite {
+    background-color: #e6e8bf;
+    border-color: #e6e8bf;
+}
+
+.roland-darkgrey {
+    background-color: #2f2e3e;
+    border-color: #2f2e3e;
+}
+
+.sixteenth {
+    width: calc(100% / 16);
+}
