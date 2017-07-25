@@ -95,7 +95,7 @@ class App extends Component {
     }
 
     // this pauses the playback slightly if you do it too quickly
-    if (prevState.bpm != this.state.bpm && this.state.activePlayback) {
+    if (prevState.bpm !== this.state.bpm && this.state.activePlayback) {
       this.stopInterval();
       this.startInterval(this.state.bpm);
     }

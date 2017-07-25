@@ -34,3 +34,7 @@
 .sixteenth {
     width: calc(100% / 16);
 }
+
+.eightoheight.container {
+    min-width: 960px;
+}
